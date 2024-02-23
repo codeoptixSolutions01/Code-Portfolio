@@ -1,0 +1,101 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Poppins:wght@300;400;500&display=swap');
+
+
+.navbar{
+    box-shadow: none;
+    background-color: transparent;
+    padding:20px 0px;
+    border: 2px solid black;
+}
+
+.logo{
+    color:black;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif ;
+    
+}
+
+.navItem{
+    display:flex;
+    flex-direction: row;
+    gap:40px;
+    align-items: center;
+}
+
+.ulItem{
+    display:flex;
+    flex-direction: row;
+    gap:40px;
+}
+
+.navlink{
+
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif ;
+}
+
+.button{
+    width: 150px;
+    height: 60px;
+    border-radius: 11px;
+    background-color:#D9D9D9 ;
+    border:none;    
+    font-family: 'Lexend', sans-serif ;
+    font-weight: 500;
+    cursor: pointer;
+    color:black;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.mobileButton{
+    width: 120px;
+   height: 40px;
+    border-radius: 11px;
+    background-color:#D9D9D9 ;
+    border:none;    
+    font-family: 'Lexend', sans-serif ;
+    font-weight: 500;
+    cursor: pointer;
+    color:black;
+    font-size: 14px;
+    text-align: center; 
+}
+
+
+@media (max-width: 1024px) {
+    .logo {
+     font-size: 24px;
+     color:black;
+    }
+
+    .navItem{
+        gap:20px;
+       
+    }
+
+    .ulItem{
+       
+        gap:20px;
+    }
+
+    .navlink{   
+        font-size: 16px;
+    }
+
+  }
+
+
+
+@media (max-width: 768px) {
+    .logo {
+     font-size: 18px;
+     color:black;
+    }
+  }
+  
+ 

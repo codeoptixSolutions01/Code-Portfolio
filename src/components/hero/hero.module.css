@@ -1,0 +1,294 @@
+.herocontainer{
+  position:relative;
+  height:510px;
+  margin:20px 0px;
+}
+
+.iconcontainer{
+position: absolute;
+top:0;
+right:0;
+width:28px;
+}
+
+.icons {
+width: 28px;
+height: 28px;
+margin: 5px 0px;
+}
+
+.welcome{
+position: absolute;
+top:25%;
+
+}
+
+
+.welcomeText{
+font-family: Lexend;
+font-size: 36px;
+font-weight: 600;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.imgContainer{
+  width:80%;
+  height:auto;
+  position: absolute;
+  right:0;
+  z-index: 2;
+  bottom:0;
+
+  }
+
+.img {
+width: 100%;
+height: 100%;
+/* overflow: hidden;
+object-fit: contain;
+object-position: center; */
+}
+
+.buttonContainer{
+height: auto;
+position:absolute;
+bottom:22%;
+transform: translateX(18%); 
+}
+
+.button{
+width: 200px;
+height:60px;
+border-radius: 11px;
+background-color:#D9D9D9 ;
+border:1px solid black;    
+font-family: 'Lexend', sans-serif ;
+font-weight: 500;
+cursor: pointer;
+color:black;
+font-size: 18px;
+text-align: center;
+
+}
+
+
+.vector{
+  width:580px;
+  height: auto;
+  position:absolute;
+  top:29%;
+  right:-2%;
+  z-index: 1;
+  
+  }
+  
+
+  
+  
+
+@media  (max-width: 1024px) {
+ 
+  .herocontainer{
+    height:400px;
+}
+
+  .welcome{
+    top:15%; 
+  }
+
+  .imgContainer{
+    width:680px;
+    height: auto;
+    position: absolute;
+    right:1%;
+    bottom:3%;
+  }
+
+  .buttonContainer{
+    bottom:22%;
+    transform: translateX(19%); 
+  }
+  
+
+  .vector{
+    max-width:400px;
+    width:100%;
+    height: auto;
+    top:36%;
+   
+  }
+}
+
+@media screen and (max-width:820px) {
+  .herocontainer{
+    height:350px;
+  }
+
+  .iconcontainer{
+    width:24px;
+  }
+
+  .icons {
+    width: 24px;
+    height: 24px;
+    margin: 5px 0px;
+  }
+
+  .welcome{
+    top:24%;
+  }
+  
+   
+  .welcomeText{
+    font-size: 24px;
+    }
+
+  .imgContainer{
+    max-width:555px;
+    width:100%;
+    height: auto;
+    position: absolute;
+    bottom:7%;
+    right:2%;
+   
+  }
+
+  .buttonContainer{
+    bottom:24%;
+    transform: translateX(27%); 
+  }
+
+  .button{
+    width: 120px;
+    height:50px;
+    font-size: 16px;
+  }
+  
+
+  .vector{
+    max-width:380px;
+    width:100%;
+    height: auto;
+    top:30%;
+   right: -5%;
+   
+  }
+}
+
+
+@media (max-width: 768px) {
+  .herocontainer{
+    height:350px;
+  }
+
+  .iconcontainer{
+    width:24px;
+  }
+
+  .icons {
+    width: 24px;
+    height: 24px;
+    margin: 5px 0px;
+  }
+
+  .welcome{
+    top:24%;
+  }
+  
+   
+  .welcomeText{
+    font-size: 24px;
+    }
+
+  .imgContainer{
+    max-width:500px;
+    width:100%;
+    height: auto;
+    position: absolute;
+  bottom:9%;
+    left:0;
+    transform: translateX(30%);
+  }
+
+  .buttonContainer{
+    bottom:24%;
+    transform: translateX(27%); 
+  }
+
+  .button{
+    width: 120px;
+    height:50px;
+    font-size: 16px;
+  }
+  
+
+  .vector{
+    max-width:320px;
+    width:100%;
+    height: auto;
+    top:36%;
+   
+   
+  }
+}
+
+@media (min-width: 320px) and (max-width:740px){
+  .herocontainer{
+    height:auto;
+  }
+
+  .iconcontainer,
+  .imgContainer,
+  .buttonContainer,
+  .welcome,
+  .buttonContainer,
+  .vector {
+    position: static; /* Override absolute positioning */
+    transform: none; /* Reset the transform */
+  }
+  .iconcontainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin:0 auto;
+   width:auto;
+   gap:5px;
+   
+  }
+
+  .welcome{
+    margin:20px 0px;
+  }
+
+  .welcomeText{
+    text-align: center;
+  }
+
+  .buttonContainer{
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+  }
+
+  .icons {
+    width: 20px;
+    height: 20px;
+  }
+
+  .imgContainer{
+    display: none;
+  }
+
+  .vector{
+    display: none;
+  }
+  
+  
+  }
+
+
+
+

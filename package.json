@@ -1,0 +1,27 @@
+{
+  "name": "codeportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.12.1",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.15.6",
+    "babel-plugin-styled-components": "^2.1.4",
+    "emailjs": "^4.0.3",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.49.3",
+    "react-toastify": "^10.0.4",
+    "sharp": "^0.33.2",
+    "styled-components": "^6.1.8"
+  }
+}
